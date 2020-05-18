@@ -23,7 +23,7 @@ IO_PORT "tx" IO_TYPE=LVCMOS33;
 IO_LOC "pinout[0]" 27;
 IO_PORT "pinout[0]" IO_TYPE=LVCMOS33;
 
-IO_LOC "pinout[0]" 28;
+IO_LOC "pinout[1]" 28;
 IO_PORT "pinout[1]" IO_TYPE=LVCMOS33;
 
 IO_LOC "pinout[2]" 29;
