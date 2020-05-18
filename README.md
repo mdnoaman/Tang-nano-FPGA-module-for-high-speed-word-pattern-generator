@@ -10,7 +10,7 @@ The default setting of the software (and the hardware) does not allow for the UA
 1. in the Gowin designer window go to Project -> configuration. This will open a window (titled configuration)
 2. press "Dual-Purpose Pin". This should show you a bunch a check box options.
 3. check mark the "use DONE as regular IO" and "use RECONFIG_N as regular IO" boxes
-
+4. (for this project where I have used 16 output pins, the "SSPI and MSPI" check boxes should also be checked )
 The job is not done yet :( (At least in my case, it seems that the firmware needs to be updated)
 
 Now, we need to set the ch552T chip on the nano board into bootloader mode. I have followed this page (https://qiita.com/ciniml/items/05ac7fd2515ceed3f88d) that claims that there are two methods to achieve the goal.
