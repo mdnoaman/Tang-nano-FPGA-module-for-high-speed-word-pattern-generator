@@ -125,6 +125,7 @@ always @(posedge clk100) begin
     if (btn2 == 0) begin
         triggered <= 0;
         ad_i <= 10'd0;
+	counter <= 0;
     end
     if (triggered ==1 ) begin
         counter <= counter + 1;
